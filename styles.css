@@ -1,0 +1,25 @@
+.button_style{
+    background-color: #f2f2f2;
+    border:1px solid #f2f2f2 ;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial, sans-serif;
+    font-size: 14px; 
+    margin: 11px 14px;
+    padding: 0px 16px;
+    line-height: 27px;
+    min-width: 54px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.button_style:hover{
+    box-shadow: 0 1px 1 px rgb(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8, #f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+
+}
