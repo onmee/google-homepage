@@ -2,47 +2,43 @@
 
 <head>
     <meta charset="UTF-8">
+    <!--Using normalize.css so browsers render elements consistently--> 
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 
+<header id="header">
+    <a href="#">About</a>
+    <a href="#">Store</a>
+    <a style="margin-left: auto;" href="#">Gmail</a>
+    <a style="padding-right:15px;" href="#">Images</a>
+</header>
 
-<main style="font-family: arial, sans-serif;">
-
-    <header style="margin-top: 29px; margin-bottom:89px; padding-left: 15px; display:flex">
-        <a href="#">About</a>
-        <a  style = "padding-left: 15px" href="#">Store</a>
-        <a style="margin-left: auto;" href="#">Gmail</a>
-        <a style="padding-left: 15px; padding-right:15px;" href="#">Images</a>
-    </header>
 
 <body>
 
-
-<div style="display:flex;justify-content:center">
+<div class="content">
     <img alt="Google Logo" id="logo" src="/images/google-logo.png">
 </div>
 
-<div style="display:flex; justify-content:center";">
-    <form action="/google/search"><input type="text"></form>
+<div class="content" style="padding: 30px 0px 20px 0px;">
+    <input type="search" id="searchbar">
 </div>
 
-<div style="display:flex;justify-content:center">
+<div class="content">
     <button type="button" class="button_style">Google Search</button>
     <button type="button" class="button_style">I'm Feeling Lucky</button>
 </div>
 
+</body>
 
-</body> 
-
-<Footer>
+<Footer  type = "text/css" id = "footer">
     <a href="#">Advertising</a>
     <a href="#">Business</a>
     <a href="#">How Search Works</a>
-    <a href="#">Privacy</a>
+    <a style="margin-left: auto" href="#">Privacy</a>
     <a href="#">Terms</a>
-    <a href="#">Settings</a>
+    <a style="padding-right: 15px;" href="#">Settings</a>
 
 </Footer>
-
-</main>
