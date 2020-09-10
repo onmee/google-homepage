@@ -7,4 +7,4 @@
 	- Style elements to appear like the Google git homepage.
 
 ###   Link to finished page 
-	[https://onmee.github.io/google-homepage/]  
+	https://onmee.github.io/google-homepage/  
