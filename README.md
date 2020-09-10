@@ -4,6 +4,6 @@
 
 ###   Aims
 	- Learn basic HTMl and CSS layouts.
-	- Style elements to appear like the Google git homepage.
+	- Style elements to appear like the Google homepage.
 
 Link to finished page: https://onmee.github.io/google-homepage/  
